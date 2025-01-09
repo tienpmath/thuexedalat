@@ -1,5 +1,5 @@
-import VideoPopup from "@/components/elements/PopupVideo";
-import Layout from "@/components/layout/Layout";
+import VideoPopup from "/components/elements/PopupVideo";
+import Layout from "/components/layout/Layout";
 import Link from "next/link";
 
 export default function Home() {
