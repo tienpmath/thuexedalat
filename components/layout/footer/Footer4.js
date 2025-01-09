@@ -4,6 +4,70 @@ export default function Footer4() {
   return (
     <>
       <footer>
+        <div className="tienichcuocgoi vitri3 themes4">
+          <ul id="ultienichcuocgoi">
+            <li className="sodienthoaizalo">
+              <a
+                rel="noopener nofflow"
+                target="_blank"
+                href="https://zalo.me/0918638068"
+                data-original-title="Nhắn tin cho chúng tôi qua Zalo"
+                data-placement="top"
+                data-toggle="tooltip"
+              >
+                <span className="icimg">
+                  <img
+                    width={40}
+                    height={40}
+                    alt="sodienthoaizalo"
+                    src="https://vutruso.com/wp-content/uploads/2024/08/sodienthoaizalo.svg"
+                  />
+                </span>
+                <span className="tienichname">0918 638 068</span>
+              </a>
+            </li>
+            <li className="facebook">
+              <a
+                rel="noopener nofflow"
+                target="_blank"
+                href="https://zalo.me/0918638068"
+                data-original-title="Nhắn tin cho chúng tôi qua Facebook"
+                data-placement="top"
+                data-toggle="tooltip"
+              >
+                <span className="icimg">
+                  <img
+                    alt="facebook"
+                    src="https://vutruso.com/wp-content/uploads/2024/08/facebook.svg"
+                  />
+                </span>
+                <span className="tienichname">Thuê xe ô tô</span>
+              </a>
+            </li>
+            <li className="sodienthoai">
+              <a
+                rel="noopener nofflow"
+                href="tel:vutruso"
+                data-original-title="Nhấn để gọi ngay"
+                data-placement="top"
+                data-toggle="tooltip"
+              >
+                <span className="icimg">
+                  <img
+                    width={40}
+                    height={40}
+                    className="lac"
+                    alt="sodienthoai"
+                    src="https://vutruso.com/wp-content/uploads/2024/08/sodienthoai.svg"
+                  />
+                  <div className="vutruso-alo-ph-circle" />
+                  <div className="vutruso-alo-ph-circle-fill" />
+                </span>
+                <span className="tienichname">0918 638 068</span>
+              </a>
+            </li>
+          </ul>
+        </div>
         <div className="footer__area-four">
           <div className="container">
             <div className="footer__top-three footer__top-four">

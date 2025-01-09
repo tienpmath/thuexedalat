@@ -33,7 +33,7 @@ const BlogPost4 = async () => {
               <div key={index} className="col-xl-4 col-lg-6 col-md-10">
                 <div className="blog-post-item blog__post-three shine-animate-item">
                   <div className="blog-post-thumb blog__post-thumb-three">
-                    <Link href={`/blog/${item.slug}`} className="shine-animate">
+                    <Link href={`/${item.slug}`} className="shine-animate">
                       <Image
                         src={
                           "https://admin.raovatlamdong.vn/api/cms-kit/media/" +
@@ -53,7 +53,7 @@ const BlogPost4 = async () => {
                   <div className="blog-post-content blog__post-content-three">
                     <h2 className="post-tag">Thuê xe Đà Lạt</h2>
                     <h2 className="title">
-                      <Link href="/blog-details">{item.title}</Link>
+                      <Link href={`/${item.slug}`}>{item.title}</Link>
                     </h2>
                     <div className="blog-post-meta mb-20">
                       <ul className="list-wrap">
@@ -63,7 +63,7 @@ const BlogPost4 = async () => {
                         </li>
                       </ul>
                     </div>
-                    <Link href="/blog-details" className="btn">
+                    <Link href={`/${item.slug}`} className="btn">
                       Xem chi tiết
                     </Link>
                   </div>

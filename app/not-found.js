@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Error page">
+      <Layout headerStyle={4} footerStyle={4} breadcrumbTitle="Error page">
         <section className="error-area">
           <div className="container">
             <div className="row">
@@ -58,11 +58,11 @@ export default function NotFound() {
                   </svg>
                   <h2 className="title">OOPS! Nothing Was Found</h2>
                   <p>
-                    Oops! it could be you or us, there is no page here. It might
-                    have <br /> been moved or deleted.Back To Home
+                    Lỗi không tìm thấ Trang <br /> Trở về Trang Chủ thuê xe o tô
+                    Đà Lạt
                   </p>
                   <Link href="/" className="btn btn-two">
-                    Go Back To Home Page
+                    Trở về Trang Chủ
                   </Link>
                 </div>
               </div>
