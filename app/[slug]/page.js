@@ -1,6 +1,17 @@
 import VideoPopup from "/components/elements/PopupVideo";
 import Layout from "/components/layout/Layout";
 import Link from "next/link";
+export const metadata = {
+  title: "Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt",
+  description:
+    "Dịch vụ Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt. DỊCH VỤ THUÊ XE Ô TÔ ĐÀ LẠT (CÓ TÀI XẾ); Thuê xe ô tô Đà Lạt tham quan các địa điểm theo yêu cầu",
+  openGraph: {
+    title: "Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt",
+    description:
+      "Dịch vụ Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt. DỊCH VỤ THUÊ XE Ô TÔ ĐÀ LẠT (CÓ TÀI XẾ); Thuê xe ô tô Đà Lạt tham quan các địa điểm theo yêu cầu",
+    images: "/logo.jpg",
+  },
+};
 
 export default function Home() {
   //console.log(slug.params.slug);
@@ -18,15 +29,14 @@ export default function Home() {
                         <img src="/assets/img/blog/blog_details01.jpg" alt="" />
                       </div>
                       <div className="blog__details-content">
-                        <h2 className="title">
-                          Modern Methods For Improving Drupal’s Larges awt
-                          Contentful Paint Core Web Vital
-                        </h2>
+                        <h1 className="title">
+                          Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt
+                        </h1>
                         <div className="blog-post-meta">
                           <ul className="list-wrap">
                             <li>
                               <Link href="/blog" className="blog__post-tag-two">
-                                Business
+                                Đặt xe
                               </Link>
                             </li>
                             <li>
@@ -58,33 +68,25 @@ export default function Home() {
                           </ul>
                         </div>
                         <p>
-                          when an unknown printer took ar galley offer type year
-                          anddey scrambled make type aewer specimen book bethas
-                          survived not only five when annery unknown printer.eed
-                          a little help from our friends from time to time.
-                          Although we offer the one-stop convenience.
+                          Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt
                         </p>
                         <p>
-                          eed a little help from our friends from time to time.
-                          Although we offer the one-stop convenience of annery
-                          integrated range of legal, financial services under
-                          one roof.eed a little help from our friends from time
-                          to time. Although we offer the one-stop convenience.
+                          Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà Lạt
                         </p>
                         <blockquote>
                           <p>
-                            “ urabitur varius eros rutrum consequat Mauris aewa
-                            sollicitudin enim condimentum luctus enim justo non
-                            molestie nisl ”
+                            “Dịch vụ Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ
+                            Đà Lạt. DỊCH VỤ THUÊ XE Ô TÔ ĐÀ LẠT (CÓ TÀI XẾ);
+                            Thuê xe ô tô Đà Lạt tham quan các địa điểm theo yêu
+                            cầu”
                           </p>
                         </blockquote>
                         <h4 className="title-two">Speed Optimized</h4>
                         <p>
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen bookhas a not
-                          only five centuries, but also the leap into electronic
-                          typesetting, remaining essentially unchan galley of
-                          type and scrambled it to make a type specimen book.
+                          Chúng tôi có sẵn Dịch vụ Thuê xe 4 chỗ, 5 chỗ, 7 chỗ,
+                          16 chỗ, 29 chỗ Đà Lạt. DỊCH VỤ THUÊ XE Ô TÔ ĐÀ LẠT (CÓ
+                          TÀI XẾ); Thuê xe ô tô Đà Lạt tham quan các địa điểm
+                          theo yêu cầu
                         </p>
                         <div className="blog__details-inner">
                           <div className="row align-items-center">
@@ -128,11 +130,9 @@ export default function Home() {
                           </div>
                         </div>
                         <p>
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen bookhas a not
-                          only five centuries, but also the leap into electronic
-                          typesetting, remaining essentially unchan galley of
-                          type and scrambled it to make a type specimen book.
+                          Dịch vụ Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà
+                          Lạt. DỊCH VỤ THUÊ XE Ô TÔ ĐÀ LẠT (CÓ TÀI XẾ); Thuê xe
+                          ô tô Đà Lạt tham quan các địa điểm theo yêu cầu
                         </p>
                         <div className="blog__details-bottom">
                           <div className="row align-items-center">
@@ -197,9 +197,10 @@ export default function Home() {
                             <Link href="#">Parker Willy</Link>
                           </h4>
                           <p>
-                            Finanappreciate your trust greatly Our clients
-                            choose dentace ducts because kn ow we are the best
-                            area Awaitingare really.
+                            Dịch vụ Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ
+                            Đà Lạt. DỊCH VỤ THUÊ XE Ô TÔ ĐÀ LẠT (CÓ TÀI XẾ);
+                            Thuê xe ô tô Đà Lạt tham quan các địa điểm theo yêu
+                            cầu
                           </p>
                         </div>
                       </div>
@@ -387,8 +388,9 @@ export default function Home() {
                       <h2 className="title">Request A Call Back</h2>
                     </div>
                     <p>
-                      Ever find yourself staring at your computer screen a good
-                      consulting slogan to come to mind? Oftentimes.
+                      Dịch vụ Thuê xe 4 chỗ, 5 chỗ, 7 chỗ, 16 chỗ, 29 chỗ Đà
+                      Lạt. DỊCH VỤ THUÊ XE Ô TÔ ĐÀ LẠT (CÓ TÀI XẾ); Thuê xe ô tô
+                      Đà Lạt tham quan các địa điểm theo yêu cầu
                     </p>
                     <div className="shape">
                       <img
